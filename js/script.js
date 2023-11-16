@@ -21,6 +21,7 @@ function makeSound(key) {
       case "a":
         var leftCrash = new Audio("assets/sounds/leftCrash.mp3");
         leftCrash.play();
+            alert("teste")
         break;
       case "S":
       case "s":
